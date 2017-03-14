@@ -18,7 +18,7 @@ public class BooksTestDrive {
         // Создаем массив книг
         Books[] myBooks = new Books[3];
 
-        // Создаем объекты - книгм
+        // Создаем объекты - книги
         myBooks[0] = new Books();
         myBooks[1] = new Books();
         myBooks[2] = new Books();
