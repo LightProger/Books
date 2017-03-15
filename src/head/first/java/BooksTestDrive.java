@@ -18,10 +18,15 @@ public class BooksTestDrive {
         // Создаем массив книг
         Books[] myBooks = new Books[3];
 
-        // Создаем объекты - книги
-        myBooks[0] = new Books();
-        myBooks[1] = new Books();
-        myBooks[2] = new Books();
+        // Создаем объекты - книги (c помощью цикла)
+        for (int i = 0; i < 3; i++) {
+            myBooks[i] = new Books();
+        }
+
+        // Создание объектов вручную
+//        myBooks[0] = new Books();
+//        myBooks[1] = new Books();
+//        myBooks[2] = new Books();
 
         // Описываем элементы массива
         myBooks[0].title = "Плоды Java";
